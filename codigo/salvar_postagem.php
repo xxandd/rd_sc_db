@@ -7,5 +7,5 @@ $sql = "INSERT INTO postagem (texto, idusuario) VALUES ('$texto', '$idusuario')"
 require_once "conexao.php";
 mysqli_query($conexao, $sql);
 
-header('Location: principal.php');
+header('Location: listar_postagem.php');
 ?>
